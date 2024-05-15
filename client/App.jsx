@@ -8,16 +8,12 @@ import Features from './components/Features.jsx';
 
 import Svg1 from './images/svg-2.svg'
 
-import './stylesheets/styles.scss'
 
 const App = () => {
     return (
         <>
-            <div id="home">
-                <Nav/>
-                <Hero/>
-            </div>
-            <Setup/>
+            <Nav/>
+            <Hero/>
             <Features 
                 title="Customizable event-driven autoscalers"
                 description="Deploy autoscalers according to your application needs to manage your cluster deployments and optimize resource usage."
