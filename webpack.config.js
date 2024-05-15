@@ -19,12 +19,20 @@ module.exports = {
                     }
                 }
             },
+            // {
+            //     test: /\.s[ac]ss$/i,
+            //     use: [
+            //         "style-loader",
+            //         "css-loader",
+            //         "sass-loader",
+            //     ]
+            // },
             {
-                test: /\.s[ac]ss$/i,
+                test: /\.css$/,
                 use: [
-                    "style-loader",
-                    "css-loader",
-                    "sass-loader",
+                  'style-loader', // or MiniCssExtractPlugin.loader for production
+                  'css-loader',
+                  'postcss-loader'
                 ]
             },
             {
