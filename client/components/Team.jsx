@@ -10,7 +10,7 @@ import { useInView } from 'react-intersection-observer';
 const TeamMember = ({ name, role, imageUrl, githubUrl, linkedinUrl }) => (
     <div className="flex flex-col items-center w-1/5 text-white mb-12">
         <div className="relative w-40 h-40 rounded-full overflow-hidden flex justify-center items-center bg-gray-300">
-            <img src={imageUrl} alt={`Profile of ${name}`} className="w-full h-full object-cover" />
+            <img loading="lazy" src={imageUrl} alt={`Profile of ${name}`} className="w-full h-full object-cover" />
         </div>
         <div className="text-center font-medium text-lg mt-4">{name}</div>
         <div className="text-center text-gray-400">{role}</div>
