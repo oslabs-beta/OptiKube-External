@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="relative text-center w-full h-full p-0 animate-fade-in-up">
         <div className="flex flex-col text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
           <h1 className="text-8xl font-medium mb-4">Optimizing Kubernetes</h1>
-          <p className="text-xl mb-8">Enhance your cluster experience with OptiKube</p>
+          <p className="text-xl mb-8 text-gray-400">Enhance your cluster experience with OptiKube</p>
           <Setup/>
           <div className="flex justify-center items-center">
             <button onClick={copyToClipboard} className="bg-primary-color text-white border-2 border-primary-color py-3 px-10 text-lg font-light rounded transition-colors duration-300 mx-2 hover:bg-black hover:text-primary-color flex items-center justify-center">
@@ -35,7 +35,7 @@ const Hero = () => {
               </>
             )}
             </button>
-            <button onClick={() => window.open('https://github.com/', '_blank')} className="bg-transparent text-primary-color border-2 border-primary-color py-3 px-10 text-lg font-light rounded transition-colors duration-300 mx-2 hover:bg-primary-color hover:text-white flex items-center justify-center">
+            <button onClick={() => window.open('https://github.com/OptiKube', '_blank')} className="bg-transparent text-primary-color border-2 border-primary-color py-3 px-10 text-lg font-light rounded transition-colors duration-300 mx-2 hover:bg-primary-color hover:text-white flex items-center justify-center">
               <FaGithub className="mr-1.5 h-5 w-5"/>
               GitHub
             </button>

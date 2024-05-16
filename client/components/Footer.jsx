@@ -9,10 +9,10 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-2.5">
                 Follow Us
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform duration-300">
+                <a href="https://github.com/OptiKube" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform duration-300">
                     <FaGithub className="w-6 h-6" />
                 </a>
-                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform duration-300">
+                <a href="https://www.linkedin.com/company/OptiKube" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform duration-300">
                     <FaLinkedin className="w-6 h-6" />
                 </a>
             </div>
