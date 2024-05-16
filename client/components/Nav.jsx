@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <div className="bg-black text-white">
       <nav className="flex justify-between items-center p-4">
-        <a href="/" className="text-xl font-bold no-underline text-white">OptiKube</a>
+        <a href="/" className="text-xl font-thin no-underline text-white">OptiKube</a>
         <div className="flex gap-4">
           <a href="#features" className="no-underline text-white hover:underline">Features</a>
           <a href="#team" className="no-underline text-white hover:underline">Team</a>
